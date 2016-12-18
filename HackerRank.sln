@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{A1BB8270
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseTestFixture", "BaseTestFixture\BaseTestFixture.csproj", "{6CC7F771-91E8-43CB-BC3B-F55E03CF41A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-circular-array-rotation", "Algorithms\Warmup\09-circular-array-rotation\09-circular-array-rotation.csproj", "{F4711E6B-CEE7-45DE-8594-0FCC6AD70EA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{6CC7F771-91E8-43CB-BC3B-F55E03CF41A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CC7F771-91E8-43CB-BC3B-F55E03CF41A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CC7F771-91E8-43CB-BC3B-F55E03CF41A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4711E6B-CEE7-45DE-8594-0FCC6AD70EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4711E6B-CEE7-45DE-8594-0FCC6AD70EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4711E6B-CEE7-45DE-8594-0FCC6AD70EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4711E6B-CEE7-45DE-8594-0FCC6AD70EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,5 +90,6 @@ Global
 		{6D59D419-677F-4EF9-BA60-29A19A57C179} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
 		{11921D7F-5988-46F4-BA71-29452B7BB06A} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
 		{6CC7F771-91E8-43CB-BC3B-F55E03CF41A6} = {A1BB8270-9236-4C99-A900-CDFB0BD03C2C}
+		{F4711E6B-CEE7-45DE-8594-0FCC6AD70EA6} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
 	EndGlobalSection
 EndGlobal
