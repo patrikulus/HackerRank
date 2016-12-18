@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-diagonal-difference", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-staircase", "Algorithms\Warmup\07-staircase\07-staircase.csproj", "{6D59D419-677F-4EF9-BA60-29A19A57C179}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-time-conversion", "Algorithms\Warmup\08-time-conversion\08-time-conversion.csproj", "{11921D7F-5988-46F4-BA71-29452B7BB06A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{6D59D419-677F-4EF9-BA60-29A19A57C179}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D59D419-677F-4EF9-BA60-29A19A57C179}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D59D419-677F-4EF9-BA60-29A19A57C179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11921D7F-5988-46F4-BA71-29452B7BB06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11921D7F-5988-46F4-BA71-29452B7BB06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11921D7F-5988-46F4-BA71-29452B7BB06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11921D7F-5988-46F4-BA71-29452B7BB06A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,5 +74,6 @@ Global
 		{3AC0CDF9-E166-4A83-89E2-C4371EBCE5CB} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
 		{B796C658-F9E3-441F-BF5D-02AFA26E2FE1} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
 		{6D59D419-677F-4EF9-BA60-29A19A57C179} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
+		{11921D7F-5988-46F4-BA71-29452B7BB06A} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
 	EndGlobalSection
 EndGlobal
