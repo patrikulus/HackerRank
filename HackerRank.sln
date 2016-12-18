@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-plus-minus", "Algorithms
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-diagonal-difference", "Algorithms\Warmup\05-diagonal-difference\05-diagonal-difference.csproj", "{B796C658-F9E3-441F-BF5D-02AFA26E2FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-staircase", "07-staircase\07-staircase.csproj", "{6D59D419-677F-4EF9-BA60-29A19A57C179}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-staircase", "Algorithms\Warmup\07-staircase\07-staircase.csproj", "{6D59D419-677F-4EF9-BA60-29A19A57C179}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
