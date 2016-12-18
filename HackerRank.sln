@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{ED525FE6-3EA5-4EEC-BDAE-DF5E311E144D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Warmup", "Warmup", "{C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-solve-me-first", "Algorithms\Warmup\01-solve-me-first\01-solve-me-first.csproj", "{0CB8590D-3C68-410F-9E77-CEB5E8677EB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB8590D-3C68-410F-9E77-CEB5E8677EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB8590D-3C68-410F-9E77-CEB5E8677EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB8590D-3C68-410F-9E77-CEB5E8677EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB8590D-3C68-410F-9E77-CEB5E8677EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82} = {ED525FE6-3EA5-4EEC-BDAE-DF5E311E144D}
+		{0CB8590D-3C68-410F-9E77-CEB5E8677EB8} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
+	EndGlobalSection
+EndGlobal
