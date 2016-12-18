@@ -1,7 +1,7 @@
 ﻿using BaseTestFixture;
 using NUnit.Framework;
 
-namespace _01_mini_max_sum
+namespace _02_Implementation
 {
     [TestFixture]
     public class Test : BaseFixture
@@ -11,7 +11,7 @@ namespace _01_mini_max_sum
 
         protected override void RunLogic()
         {
-            Solution.Main(null);
+            _01_MiniMaxSum.Main();
         }
     }
 }
