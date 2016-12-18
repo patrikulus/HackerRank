@@ -33,6 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Implementation", "02 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-mini-max-sum", "Algorithms\02 - Implementation\01-mini-max-sum\01-mini-max-sum.csproj", "{6D6EE79D-5F9E-4517-B1A7-5D73E26C2FCE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorials", "Tutorials", "{6D34DE4F-76D8-44F2-9B82-C67DB8879342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30daysOfCode", "Tutorials\30daysOfCode\30daysOfCode.csproj", "{4E3EB559-9A7E-4D50-9D68-62BD971B07A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +87,10 @@ Global
 		{6D6EE79D-5F9E-4517-B1A7-5D73E26C2FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D6EE79D-5F9E-4517-B1A7-5D73E26C2FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D6EE79D-5F9E-4517-B1A7-5D73E26C2FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3EB559-9A7E-4D50-9D68-62BD971B07A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3EB559-9A7E-4D50-9D68-62BD971B07A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3EB559-9A7E-4D50-9D68-62BD971B07A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3EB559-9A7E-4D50-9D68-62BD971B07A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,5 +109,6 @@ Global
 		{F4711E6B-CEE7-45DE-8594-0FCC6AD70EA6} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
 		{A1E36C05-CEC4-403E-8E3B-C891B3505FF2} = {ED525FE6-3EA5-4EEC-BDAE-DF5E311E144D}
 		{6D6EE79D-5F9E-4517-B1A7-5D73E26C2FCE} = {A1E36C05-CEC4-403E-8E3B-C891B3505FF2}
+		{4E3EB559-9A7E-4D50-9D68-62BD971B07A1} = {6D34DE4F-76D8-44F2-9B82-C67DB8879342}
 	EndGlobalSection
 EndGlobal
