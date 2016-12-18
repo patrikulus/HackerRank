@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-simple-array-sum", "Algo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-compare-the-triplets", "Algorithms\Warmup\03-compare-the-triplets\03-compare-the-triplets.csproj", "{24BD7849-FD8F-47D4-9A97-EBE7CD055A65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-a-very-big-sum", "Algorithms\Warmup\04-a-very-big-sum\04-a-very-big-sum.csproj", "{6BC402CB-5E33-433E-B461-77D3FDDBB1E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{24BD7849-FD8F-47D4-9A97-EBE7CD055A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24BD7849-FD8F-47D4-9A97-EBE7CD055A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24BD7849-FD8F-47D4-9A97-EBE7CD055A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC402CB-5E33-433E-B461-77D3FDDBB1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC402CB-5E33-433E-B461-77D3FDDBB1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC402CB-5E33-433E-B461-77D3FDDBB1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC402CB-5E33-433E-B461-77D3FDDBB1E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +46,6 @@ Global
 		{0CB8590D-3C68-410F-9E77-CEB5E8677EB8} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
 		{8CD88DD3-5AF0-4EF5-BC18-33720A61853B} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
 		{24BD7849-FD8F-47D4-9A97-EBE7CD055A65} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
+		{6BC402CB-5E33-433E-B461-77D3FDDBB1E0} = {C9E3ACD1-2F8A-4DAB-B55F-4256C59CBD82}
 	EndGlobalSection
 EndGlobal
