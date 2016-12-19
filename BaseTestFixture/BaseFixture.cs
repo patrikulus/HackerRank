@@ -4,6 +4,7 @@ using NUnit.Framework;
 
 namespace BaseTestFixture
 {
+    [TestFixture]
     public abstract class BaseFixture
     {
         public abstract string StdIn { get; }
