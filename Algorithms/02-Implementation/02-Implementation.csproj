@@ -50,9 +50,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_05_Between_Two_Sets.cs" />
     <Compile Include="_04_Kangaroo.cs" />
     <Compile Include="_03_AppleAndOrange.cs" />
     <Compile Include="_02_DesignerPDFViewer.cs" />
+    <Compile Include="_05_Between_Two_Sets_Test.cs" />
     <Compile Include="_04_Kangaroo_Test.cs" />
     <Compile Include="_03_AppleAndOrange_Test.cs" />
     <Compile Include="_02_DesignerPDFViewer_Test.cs" />
