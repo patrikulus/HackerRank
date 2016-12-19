@@ -50,7 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_03_AppleAndOrange.cs" />
     <Compile Include="_02_DesignerPDFViewer.cs" />
+    <Compile Include="_03_AppleAndOrange_Test.cs" />
     <Compile Include="_02_DesignerPDFViewer_Test.cs" />
     <Compile Include="_01_MiniMaxSum_Test.cs" />
     <Compile Include="_01_MiniMaxSum.cs" />
