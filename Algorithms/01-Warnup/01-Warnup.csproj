@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6BC402CB-5E33-433E-B461-77D3FDDBB1E0}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{B8F7D0FB-90C3-4672-B96F-9EEA1F4E28BA}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_04_a_very_big_sum</RootNamespace>
-    <AssemblyName>04-a-very-big-sum</AssemblyName>
+    <RootNamespace>_01_Warnup</RootNamespace>
+    <AssemblyName>01-Warnup</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -33,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,11 +44,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="_01_solve_me_first.cs" />
+    <Compile Include="_02_simple_array_sum.cs" />
+    <Compile Include="_03_compare_the_triplets.cs" />
+    <Compile Include="_04_a_very_big_sum.cs" />
+    <Compile Include="_05_diagonal_difference.cs" />
+    <Compile Include="_06_plus_minus.cs" />
+    <Compile Include="_07_staircase.cs" />
+    <Compile Include="_08_time_conversion.cs" />
+    <Compile Include="_08_time_conversion_Test.cs" />
+    <Compile Include="_09_circular_array_rotation.cs" />
+    <Compile Include="_09_circular_array_rotation_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BaseTestFixture\BaseTestFixture.csproj">
+      <Project>{6cc7f771-91e8-43cb-bc3b-f55e03cf41a6}</Project>
+      <Name>BaseTestFixture</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

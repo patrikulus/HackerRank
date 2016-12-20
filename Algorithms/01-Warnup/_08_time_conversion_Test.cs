@@ -1,16 +1,16 @@
 ﻿using BaseTestFixture;
 using NUnit.Framework;
 
-namespace _08_time_conversion
+namespace _01_Warnup
 {
     [TestFixture]
-    public class Tests : BaseFixture
+    public class _08_time_conversion_Test : BaseFixture
     {
         public override string StdIn => "07:05:45PM";
         public override string ExpectedStdOut => "19:05:45";
         protected override void RunLogic()
         {
-            Solution.Main(null);
+            _08_time_conversion.Main();
         }
     }
 }

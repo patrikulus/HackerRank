@@ -1,10 +1,10 @@
 ﻿using BaseTestFixture;
 using NUnit.Framework;
 
-namespace _09_circular_array_rotation
+namespace _01_Warnup
 {
     [TestFixture]
-    public class Test : BaseFixture
+    public class _09_circular_array_rotation_Test : BaseFixture
     {
         public override string StdIn => "3 2 3\r\n" +
                                         "1 2 3\r\n" +
@@ -15,7 +15,7 @@ namespace _09_circular_array_rotation
         public override string ExpectedStdOut => "2\r\n3\r\n1\r\n";
         protected override void RunLogic()
         {
-           Solution.Main(null);
+            _09_circular_array_rotation.Main();
         }
     }
 }

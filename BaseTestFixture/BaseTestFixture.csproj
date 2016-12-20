@@ -57,12 +57,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Algorithms\Warmup\01-solve-me-first\01-solve-me-first.csproj">
-      <Project>{0CB8590D-3C68-410F-9E77-CEB5E8677EB8}</Project>
-      <Name>01-solve-me-first</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
