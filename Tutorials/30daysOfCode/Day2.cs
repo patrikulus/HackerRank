@@ -6,17 +6,15 @@ namespace _30daysOfCode
     {
         public static void Main()
         {
-            int i = 4;
-            double d = 4.0;
-            string s = "HackerRank ";
+            decimal mealCost = Convert.ToDecimal(Console.ReadLine());
+            int tipPercent = Convert.ToInt32(Console.ReadLine());
+            int taxPercent = Convert.ToInt32(Console.ReadLine());
 
-            i += Convert.ToInt32(Console.ReadLine());
-            d += Convert.ToDouble(Console.ReadLine());
-            s += Console.ReadLine();
+            decimal tip = mealCost * (decimal)(tipPercent / (double)100);
+            decimal tax = mealCost * (decimal)(taxPercent / (double)100);
+            decimal sum = mealCost + tip + tax;
 
-            Console.WriteLine(i);
-            Console.WriteLine(d.ToString("0.0"));
-            Console.WriteLine(s);
+            Console.WriteLine("The total meal cost is " + sum.ToString("0") +" dollars.");
         }
     }
 }
