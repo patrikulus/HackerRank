@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using NUnit.Framework;
 
@@ -7,22 +8,24 @@ namespace BaseTestFixture
     [TestFixture]
     public abstract class BaseFixture
     {
-        public abstract string StdIn { get; }
-        public abstract string ExpectedStdOut { get; }
-
         [Test]
         public void Run()
         {
-            var writer = new StringWriter();
-            Console.SetOut(writer);
-            var reader = new StringReader(StdIn);
-            Console.SetIn(reader);
+            foreach (TestData data in Cases())
+            {
+                var writer = new StringWriter();
+                Console.SetOut(writer);
+                var reader = new StringReader(data.StdIn);
+                Console.SetIn(reader);
 
-            RunLogic();
+                RunLogic();
 
-            Assert.That(writer.ToString(), Is.EqualTo(ExpectedStdOut));
+                string output = writer.ToString();
+                Assert.That(output, Is.EqualTo(data.StdOut));
+            }
         }
 
         protected abstract void RunLogic();
+        protected abstract IEnumerable<TestData> Cases();
     }
 }

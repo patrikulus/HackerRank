@@ -1,4 +1,5 @@
-﻿using BaseTestFixture;
+﻿using System.Collections.Generic;
+using BaseTestFixture;
 using NUnit.Framework;
 
 namespace _02_Implementation
@@ -6,9 +7,10 @@ namespace _02_Implementation
     [TestFixture]
     public class _06_Divisible_Sum_Pairs_Test : BaseFixture
     {
-        public override string StdIn => "6 3\r\n1 3 2 6 1 2\r\n";
-
-        public override string ExpectedStdOut => "5";
+        protected override IEnumerable<TestData> Cases()
+        {
+            yield return new TestData("6 3\r\n1 3 2 6 1 2\r\n", "5");
+        }
 
         protected override void RunLogic()
         {
