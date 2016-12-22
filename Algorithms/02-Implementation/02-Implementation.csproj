@@ -66,6 +66,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_08_Sock_merchant_Test.cs" />
+    <Compile Include="_08_Sock_merchant.cs" />
     <Compile Include="_07_Bon_appetit.cs" />
     <Compile Include="_06_Divisible_Sum_Pairs.cs" />
     <Compile Include="_05_Between_Two_Sets.cs" />
