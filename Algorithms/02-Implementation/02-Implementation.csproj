@@ -66,6 +66,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_09_Utopian_tree.cs" />
+    <Compile Include="_09_Utopian_tree_Test.cs" />
     <Compile Include="_08_Sock_merchant_Test.cs" />
     <Compile Include="_08_Sock_merchant.cs" />
     <Compile Include="_07_Bon_appetit.cs" />
