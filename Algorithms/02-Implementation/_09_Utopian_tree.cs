@@ -22,28 +22,19 @@ namespace _02_Implementation
 
         class UtopianTree
         {
-            private enum Cycle
-            {
-                Spring,
-                Summer
-            }
-
             public int ProcessCycles(int cycles)
             {
-                Cycle current = Cycle.Spring;
                 int height = 1;
 
                 for (int i = 0; i < cycles; i++)
                 {
-                    if (current == Cycle.Spring)
+                    if (i % 2 == 0)
                     {
                         height *= 2;
-                        current = Cycle.Summer;
                     }
                     else
                     {
                         height += 1;
-                        current = Cycle.Spring;
                     }
                 }
 
