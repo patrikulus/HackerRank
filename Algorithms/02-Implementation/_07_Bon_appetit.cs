@@ -3,7 +3,7 @@
 namespace _02_Implementation
 {
     /// <summary>
-    /// https://www.hackerrank.com/challenges/divisible-sum-pairs
+    /// https://www.hackerrank.com/challenges/bon-appetit
     /// </summary>
     class _07_Bon_appetit
     {
