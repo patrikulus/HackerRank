@@ -66,6 +66,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_13_Save_the_prisoner.cs" />
+    <Compile Include="_13_Save_the_prisoner_Test.cs" />
     <Compile Include="_12_Strange_advertising.cs" />
     <Compile Include="_11_Beautiful_days_at_the_movies.cs" />
     <Compile Include="_10_Angry_professor.cs" />
