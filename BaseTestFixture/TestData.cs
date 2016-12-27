@@ -7,6 +7,7 @@
             StdIn = stdIn;
             StdOut = stdOut;
         }
+
         public string StdIn { get; }
         public string StdOut { get; }
 
