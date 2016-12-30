@@ -94,12 +94,14 @@
     <Compile Include="_01_MiniMaxSum_Test.cs" />
     <Compile Include="_01_MiniMaxSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_20_Cut_the_sticks.cs" />
     <Compile Include="_19_Library_Fine.cs" />
     <Compile Include="_18_Sherlock_and_squares.cs" />
     <Compile Include="_17_Append_and_delete.cs" />
     <Compile Include="_16_Extra_long_factorials.cs" />
     <Compile Include="_15_Find_digits.cs" />
     <Compile Include="_14_jumping_on_the_clouds_revisited.cs" />
+    <Compile Include="_20_Cut_the_sticks_Test.cs" />
     <Compile Include="_19_Library_Fine_Test.cs" />
     <Compile Include="_18_Sherlock_and_squares_Test.cs" />
     <Compile Include="_17_Append_and_delete_Test.cs" />
