@@ -3,7 +3,7 @@
 namespace _02_Implementation
 {
     /// <summary>
-    /// _18_Sherlock_and_squares
+    /// https://www.hackerrank.com/challenges/sherlock-and-squares
     /// </summary>
     class _18_Sherlock_and_squares
     {
