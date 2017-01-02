@@ -94,6 +94,7 @@
     <Compile Include="_01_MiniMaxSum_Test.cs" />
     <Compile Include="_01_MiniMaxSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_24_Equality_in_a_array.cs" />
     <Compile Include="_23_Jumping_on_the_clouds.cs" />
     <Compile Include="_22_Repeated_string.cs" />
     <Compile Include="_21_Non_Divisible_subset.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="_16_Extra_long_factorials.cs" />
     <Compile Include="_15_Find_digits.cs" />
     <Compile Include="_14_jumping_on_the_clouds_revisited.cs" />
+    <Compile Include="_24_Equality_in_a_array_Test.cs" />
     <Compile Include="_23_Jumping_on_the_clouds_Test.cs" />
     <Compile Include="_22_Repeated_string_Test.cs" />
     <Compile Include="_21_Non_Divisible_subset_Test.cs" />
