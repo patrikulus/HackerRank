@@ -16,7 +16,7 @@ namespace _02_Implementation
             int rows = (int)Math.Floor(sqlrt);
             int columns = (int)Math.Ceiling(sqlrt);
 
-            if (rows*columns < s.Length) rows = columns;
+            if (rows * columns < s.Length) rows = columns;
 
             var table = new char[rows, columns];
 
@@ -30,7 +30,6 @@ namespace _02_Implementation
                 }
             }
 
-            var r = new List<char>();
             for (int i = 0; i < columns;)
             {
                 for (int j = 0; j < rows;)
@@ -38,7 +37,6 @@ namespace _02_Implementation
                     char c = table[j++, i];
                     if (c != '\0')
                     {
-                        r.Add(c);
                         Console.Write(c);
                     }
                 }
@@ -47,7 +45,6 @@ namespace _02_Implementation
                 if (i != columns)
                 {
                     Console.Write(' ');
-                    r.Add(' ');
                 }
             }
         }
