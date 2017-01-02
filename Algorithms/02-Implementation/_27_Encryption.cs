@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace _02_Implementation
 {
@@ -13,30 +12,20 @@ namespace _02_Implementation
         {
             string s = Console.ReadLine();
 
-            var builder = new StringBuilder();
-            for (int i = 0; i < s.Length; i++)
-            {
-                char c = s[i];
-                if (c != ' ')
-                    builder.Append(c);
-            }
-
-            string o = builder.ToString();
-
-            double sqlrt = Math.Sqrt(o.Length);
+            double sqlrt = Math.Sqrt(s.Length);
             int rows = (int)Math.Floor(sqlrt);
             int columns = (int)Math.Ceiling(sqlrt);
 
-            if (rows*columns < o.Length) rows = columns;
+            if (rows*columns < s.Length) rows = columns;
 
             var table = new char[rows, columns];
 
             int position = 0;
             for (int i = 0; i < rows; i++)
             {
-                for (int j = 0; j < columns && position < o.Length; j++)
+                for (int j = 0; j < columns && position < s.Length; j++)
                 {
-                    char c = o[position++];
+                    char c = s[position++];
                     table[i, j] = c;
                 }
             }
