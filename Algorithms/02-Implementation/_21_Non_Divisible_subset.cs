@@ -17,37 +17,23 @@ namespace _02_Implementation
             temp = Console.ReadLine().Split(' ');
             int[] values = Array.ConvertAll(temp, Convert.ToInt32);
 
-            var divs = new Dictionary<int, int>();
-            for (int i = 0; i < values.Length; i++)
+            int[] divs = new int[k];
+            for (int i = 0; i < values.Length; ++i)
             {
-                int value = values[i];
-                int missing = value % k;
-                if (!divs.ContainsKey(missing))
+                divs[values[i] % k] += 1;
+            }
+
+            int count = divs[0] < 1 ? divs[0] : 1;
+
+            for (int i = 1; i < k / 2 + 1; i++)
+            {
+                if (i != k - i)
                 {
-                    divs.Add(missing, 1);
-                }
-                else
-                {
-                    divs[missing] += 1;
+                    count += divs[i] > divs[k - i] ? divs[i] : divs[k - i];
                 }
             }
 
-            int count = 0;
-            int j = 0;
-            for (; j < values.Length; j++)
-            {
-                int left;
-                if(!divs.TryGetValue(j, out left)) left = 0;
-
-                int right;
-                if (!divs.TryGetValue(k - j, out right)) right = 0;
-                count += Math.Max(left, right);
-            }
-
-            if (2 * j == k)
-            {
-                count++;
-            }
+            if (k % 2 == 0) count++;
 
             Console.WriteLine(count);
         }
