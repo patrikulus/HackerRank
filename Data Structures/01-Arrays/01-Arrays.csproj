@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_02_2d_array.cs" />
+    <Compile Include="_02_2d_array_Test.cs" />
     <Compile Include="_01_Arrays_ds_Test.cs" />
     <Compile Include="_01_Arrays_ds.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
