@@ -14,6 +14,7 @@ namespace _30daysOfCode
             try
             {
                 int parsed = int.Parse(s);
+                Console.WriteLine(parsed);
             }
             catch (Exception)
             {
