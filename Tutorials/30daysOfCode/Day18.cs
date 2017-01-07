@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace _30daysOfCode
 {
-    class Day19
+    class Day18
     {
         class Solution
         {
