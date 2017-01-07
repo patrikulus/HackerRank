@@ -7,7 +7,7 @@ namespace _05_Sorting
     /// </summary>
     class _02_Insertion_sort1
     {
-        static void Main()
+        public static void Main()
         {
             var n = Convert.ToInt32(Console.ReadLine());
             int[] _ar = new int[n];
@@ -25,7 +25,7 @@ namespace _05_Sorting
         {
             int position = ar.Length - 1;
             int toSort = ar[position];
-            while (ar[position - 1] > toSort)
+            while (position != 0 && ar[position - 1] > toSort)
             {
                 ar[position] = ar[position - 1];
                 Print(ar);
