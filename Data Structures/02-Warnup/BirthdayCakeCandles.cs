@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace _02_Warnup
 {
+    /// <summary>
+    /// https://www.hackerrank.com/challenges/birthday-cake-candles
+    /// </summary>
     public class BirthdayCakeCandles
     {
         public static void Main()
@@ -13,23 +16,19 @@ namespace _02_Warnup
             IEnumerable<int> height = Console.ReadLine().Split(' ').Select(x => Convert.ToInt32(x));
 
             int max = 0;
-            var dic = new Dictionary<int, int>();
+            int count = 0;
             foreach (int h in height)
             {
-                int value;
-                if (!dic.TryGetValue(h, out value))
+                if (h > max)
                 {
-                    dic[h] = 1;
+                    max = h;
+                    count = 1;
                 }
-                else
-                {
-                    value++;
-                    dic[h] = value;
-                    max = Math.Max(max, value);
-                }
+                else if (h == max)
+                    count++;
             }
 
-            Console.WriteLine(max);
+            Console.WriteLine(count);
         }
     }
 }
