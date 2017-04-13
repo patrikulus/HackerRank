@@ -44,17 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="_01_solve_me_first.cs" />
-    <Compile Include="_02_simple_array_sum.cs" />
-    <Compile Include="_03_compare_the_triplets.cs" />
-    <Compile Include="_04_a_very_big_sum.cs" />
-    <Compile Include="_05_diagonal_difference.cs" />
-    <Compile Include="_06_plus_minus.cs" />
-    <Compile Include="_07_staircase.cs" />
-    <Compile Include="_08_time_conversion.cs" />
-    <Compile Include="_08_time_conversion_Test.cs" />
-    <Compile Include="_09_circular_array_rotation.cs" />
-    <Compile Include="_09_circular_array_rotation_Test.cs" />
+    <Compile Include="BirthdayCakeCandles.cs" />
+    <Compile Include="SolveMeFirst.cs" />
+    <Compile Include="SimpleArraySum.cs" />
+    <Compile Include="CompareTheTriplets.cs" />
+    <Compile Include="AveryBigSum.cs" />
+    <Compile Include="DiagonalDifference.cs" />
+    <Compile Include="PlusMinus.cs" />
+    <Compile Include="Staircase.cs" />
+    <Compile Include="TimeConversion.cs" />
+    <Compile Include="CircularArrayRotation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

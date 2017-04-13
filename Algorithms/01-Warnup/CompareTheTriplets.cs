@@ -2,7 +2,7 @@
 
 namespace _01_Warnup
 {
-    class _03_compare_the_triplets
+    class CompareTheTriplets
     {
 
         private static void Compare(int av, int bv, ref int a, ref int b)

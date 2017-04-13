@@ -2,7 +2,10 @@
 
 namespace _01_Warnup
 {
-    class _02_simple_array_sum
+    /// <summary>
+    ///https://www.hackerrank.com/challenges/solve-me-first
+    /// </summary>
+    class SimpleArraySum
     {
         public static void Main()
         {

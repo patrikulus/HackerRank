@@ -2,7 +2,7 @@
 
 namespace _01_Warnup
 {
-    class _07_staircase
+    class Staircase
     {
         public static void Main()
         {

@@ -2,7 +2,7 @@
 
 namespace _01_Warnup
 {
-    class _06_plus_minus
+    class PlusMinus
     {
 
         private static void Print(int number, int total)

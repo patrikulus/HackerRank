@@ -2,7 +2,10 @@
 
 namespace _01_Warnup
 {
-    public class _01_solve_me_first
+    /// <summary>
+    /// https://www.hackerrank.com/challenges/solve-me-first
+    /// </summary>
+    public class SolveMeFirst
     {
         private static int solveMeFirst(int a, int b)
         {

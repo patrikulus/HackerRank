@@ -2,7 +2,7 @@
 
 namespace _01_Warnup
 {
-    class _05_diagonal_difference
+    class DiagonalDifference
     {
         public static void Main()
         {

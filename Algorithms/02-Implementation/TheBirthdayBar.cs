@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using BaseTestFixture;
 using NUnit.Framework;
 
-namespace _02_Warnup
+namespace _02_Implementation
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/the-birthday-bar

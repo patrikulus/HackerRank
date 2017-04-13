@@ -2,7 +2,7 @@
 
 namespace _01_Warnup
 {
-    class _04_a_very_big_sum
+    class AveryBigSum
     {
         public static void Main()
         {

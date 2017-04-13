@@ -4,7 +4,7 @@ using System.Linq;
 using BaseTestFixture;
 using NUnit.Framework;
 
-namespace _02_Warnup
+namespace _01_Warnup
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/birthday-cake-candles
