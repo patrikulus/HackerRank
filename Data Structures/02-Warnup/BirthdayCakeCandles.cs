@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using BaseTestFixture;
+using NUnit.Framework;
 
 namespace _02_Warnup
 {
@@ -29,6 +31,20 @@ namespace _02_Warnup
             }
 
             Console.WriteLine(count);
+        }
+    }
+
+    [TestFixture]
+    public class BirthdayCakeCandles_Test : BaseFixture
+    {
+        protected override IEnumerable<TestData> Cases()
+        {
+            yield return new TestData("4\r\n3 2 1 3\r\n", "2\r\n");
+        }
+
+        protected override void RunLogic()
+        {
+            BirthdayCakeCandles.Main();
         }
     }
 }
