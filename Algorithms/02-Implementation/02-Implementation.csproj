@@ -53,6 +53,8 @@
   <ItemGroup>
     <Compile Include="CountingValleys.cs" />
     <Compile Include="DrawingBook.cs" />
+    <Compile Include="CatsAndAMouse.cs" />
+    <Compile Include="TheHurdleRace.cs" />
     <Compile Include="MigratoryBirds.cs" />
     <Compile Include="DivisibleSumPairs.cs" />
     <Compile Include="BreakingTheRecords.cs" />
