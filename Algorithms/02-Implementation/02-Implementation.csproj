@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BreakingTheRecords.cs" />
     <Compile Include="TheBirthdayBar.cs" />
     <Compile Include="_13_Save_the_prisoner.cs" />
     <Compile Include="_13_Save_the_prisoner_Test.cs" />
