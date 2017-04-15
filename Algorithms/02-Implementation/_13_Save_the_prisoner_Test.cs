@@ -13,7 +13,7 @@ namespace _02_Implementation
             yield return new TestData("1\r\n5 1 1\r\n", "1\r\n");
             yield return new TestData("1\r\n5 5 1\r\n", "5\r\n");
             yield return new TestData("1\r\n208526924 756265725 150817879\r\n", "72975907\r\n");
-            yield return FromFile("_13_Save_the_prisoner_in.txt", "_13_Save_the_prisoner_out.txt");
+            // yield return FromFile("_13_Save_the_prisoner_in.txt", "_13_Save_the_prisoner_out.txt");
         }
 
         protected override void RunLogic()
