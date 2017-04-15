@@ -23,7 +23,7 @@ namespace _02_Implementation
                 if (poisoned == 0)
                     poisoned = n;
 
-                Console.Write(poisoned + "\n");
+                Console.Write(poisoned + "\r\n");
             }
         }
     }
