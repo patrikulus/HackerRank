@@ -10,50 +10,20 @@ namespace _02_Implementation
     /// </summary>
     class DrawingBook
     {
-        private static int Solve(int n, int page)
+        private static int Solve(int total, int page)
         {
-            int fromStart = FromLeft(n, page);
-            int fromEnd = FromRight(n, page);
-
-            int result = Math.Min(fromStart, fromEnd);
-
-            return result;
-        }
-
-        private static int FromLeft(int pages, int page)
-        {
-            int result = 0;
-
-            int currentPage = 1;
-            while (currentPage != page && currentPage <= page)
+            int result;
+            if (page - 1 < total - page) // before a half
             {
-                currentPage += 2;
-                result++;
+                result = page / 2;
+            }
+            else
+            {
+                result = (total - page) / 2; // after a half
             }
 
             return result;
         }
-
-        private static int FromRight(int pages, int page)
-        {
-            int result = 0;
-            int currentPage = pages;
-
-            while (currentPage != page && currentPage >= page)
-            {
-                if (!IsEven(currentPage) && currentPage - 1 == page)
-                {
-                    break;
-                }
-
-                currentPage -= 2;
-                result++;
-            }
-
-            return result;
-        }
-
-        private static bool IsEven(int number) => number % 2 == 0;
 
         public static void Main()
         {
