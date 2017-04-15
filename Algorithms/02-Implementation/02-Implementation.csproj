@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MigratoryBirds.cs" />
     <Compile Include="DivisibleSumPairs.cs" />
     <Compile Include="BreakingTheRecords.cs" />
     <Compile Include="TheBirthdayBar.cs" />
