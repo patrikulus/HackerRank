@@ -56,6 +56,7 @@
     <Compile Include="MigratoryBirds.cs" />
     <Compile Include="DivisibleSumPairs.cs" />
     <Compile Include="BreakingTheRecords.cs" />
+    <Compile Include="ElectronicsShop.cs" />
     <Compile Include="TheBirthdayBar.cs" />
     <Compile Include="_13_Save_the_prisoner.cs" />
     <Compile Include="_13_Save_the_prisoner_Test.cs" />
