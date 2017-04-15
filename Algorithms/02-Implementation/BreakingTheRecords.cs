@@ -51,7 +51,7 @@ namespace _02_Implementation
 
         protected override IEnumerable<TestData> Cases()
         {
-            yield return new TestData("9\r\n10 5 20 20 4 5 2 25 1\r\n", "2\r\n");
+            yield return new TestData("9\r\n10 5 20 20 4 5 2 25 1\r\n", "2 4\r\n");
             yield return new TestData("10\r\n3 4 21 36 10 28 35 5 24 42\r\n", "4 0\r\n");
         }
     }
