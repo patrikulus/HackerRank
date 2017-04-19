@@ -14,7 +14,7 @@ namespace _02_Implementation
         {
             int min = scores[0], max = scores[0];
             int[] results = new int[2];
-            for (var itr = 1; i < scores.Length; itr++)
+            for (var itr = 1; itr < scores.Length; itr++)
             {
                 var score = scores[itr];
                 if (score > max)
