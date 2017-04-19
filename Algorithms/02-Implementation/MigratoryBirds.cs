@@ -16,35 +16,21 @@ namespace _02_Implementation
             string[] types_temp = Console.ReadLine().Split(' ');
             int[] types = Array.ConvertAll(types_temp, int.Parse);
 
-            var birds = new Dictionary<int, int>();
-            foreach (int type in types)
+            int[] birds = new int[5];
+            for(var itr = 0; itr < n; itr++)
             {
-                if (birds.ContainsKey(type))
-                {
-                    birds[type]++;
-                }
-                else
-                {
-                    birds.Add(type, 1);
-                }
+                birds[types[itr] - 1]++;
             }
 
-            int id = int.MaxValue;
-            int max = 0;
-            foreach (var bird in birds)
+            int id = 1;
+            int max = birds[0];
+            for (var itr = 1; itr >= 0; itr--)
             {
-                if (bird.Value >= max)
+                var value = birds[itr];
+                if (value >= max)
                 {
-                    if (bird.Value == max && bird.Key < id)
-                    {
-                        id = bird.Key;
-                    }
-                    else
-                    {
-                        id = bird.Key;
-                    }
-
-                    max = bird.Value;
+                    id = itr + 1;
+                    max = value;
                 }
             }
 
